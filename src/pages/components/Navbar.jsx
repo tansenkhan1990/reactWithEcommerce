@@ -1,8 +1,12 @@
 import React from 'react'
 
+const Container={
+    height:"60px",
+    backgroundColor:'black'
+};
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <div style={Container}>Navbar</div>
   )
 }
 
